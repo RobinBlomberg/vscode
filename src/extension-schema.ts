@@ -1,6 +1,5 @@
 /**
  * @see https://raw.githubusercontent.com/microsoft/vscode/main/src/vs/workbench/services/extensions/common/extensionsRegistry.ts
- * @see https://transform.tools/json-schema-to-typescript
  */
 export type VSCodeExtensionSchema = {
   /**

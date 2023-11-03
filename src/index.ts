@@ -1,8 +1,12 @@
-import { PackageJson } from 'type-fest';
-import { VSCodeExtensionMetadata } from './vscode-extension-metadata';
-import { VSCodeExtensionSchema } from './vscode-extension-schema';
-
-export type VSCodeExtensionPackageJson = PackageJson &
-  VSCodeExtensionSchema & {
-    __metadata: VSCodeExtensionMetadata;
-  };
+export * from './color-theme-schema';
+export * from './extension-metadata';
+export * from './extension-package-json';
+export * from './extension-schema';
+export * from './settings';
+export * from './target-platform';
+export * from './textmate-color-group';
+export * from './textmate-color-schema';
+export * from './textmate-color-settings';
+export * from './textmate-scope';
+export * from './textmate-token-settings';
+export * from './token-color-schema';
