@@ -1,6 +1,6 @@
 /* eslint-disable sonarjs/no-duplicate-string */
 
-import { VSCodeTokenColorSchema } from './token-color-schema';
+import { VSCodeTokenColorSchema } from './token-color-schema.js';
 
 /**
  * @see https://code.visualstudio.com/docs/getstarted/settings

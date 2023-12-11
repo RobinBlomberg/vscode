@@ -1,5 +1,5 @@
-import { TextMateColorSettings } from './textmate-color-settings';
-import { TextMateScope } from './textmate-scope';
+import { TextMateColorSettings } from './textmate-color-settings.js';
+import { TextMateScope } from './textmate-scope.js';
 
 /**
  * @see https://github.com/microsoft/vscode/blob/main/src/vs/workbench/services/themes/common/colorThemeSchema.ts

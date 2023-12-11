@@ -1,4 +1,4 @@
-import { VSCodeTargetPlatform } from './target-platform';
+import { VSCodeTargetPlatform } from './target-platform.js';
 
 /**
  * @see https://github.com/microsoft/vscode/blob/main/src/vs/platform/extensionManagement/common/extensionManagement.ts

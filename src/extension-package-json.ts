@@ -1,6 +1,6 @@
 import { PackageJson } from 'type-fest';
-import { VSCodeExtensionMetadata } from './extension-metadata';
-import { VSCodeExtensionSchema } from './extension-schema';
+import { VSCodeExtensionMetadata } from './extension-metadata.js';
+import { VSCodeExtensionSchema } from './extension-schema.js';
 
 export type VSCodeExtensionPackageJson = PackageJson &
   VSCodeExtensionSchema & {

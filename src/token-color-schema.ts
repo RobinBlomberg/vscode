@@ -1,5 +1,5 @@
-import { VSCodeTextMateColorGroup } from './textmate-color-group';
-import { TextMateColorSchema } from './textmate-color-schema';
+import { VSCodeTextMateColorGroup } from './textmate-color-group.js';
+import { TextMateColorSchema } from './textmate-color-schema.js';
 
 /**
  * @see https://github.com/microsoft/vscode/blob/main/src/vs/workbench/services/themes/common/themeConfiguration.ts

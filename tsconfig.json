@@ -1,20 +1,21 @@
 {
   "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
-    "checkJs": true,
+    "allowJs": true,
     "declaration": true,
-    "downlevelIteration": true,
+    "declarationMap": true,
     "esModuleInterop": true,
-    "incremental": true,
-    "lib": ["DOM", "ESNext"],
-    "module": "ESNext",
-    "moduleResolution": "Node",
-    "noEmit": false,
+    "isolatedModules": true,
+    "lib": ["es2022"],
+    "module": "NodeNext",
+    "moduleDetection": "force",
+    "moduleResolution": "NodeNext",
     "noUncheckedIndexedAccess": true,
     "outDir": "dist",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
     "strict": true,
-    "target": "ESNext",
-    "types": ["bun-types"]
+    "target": "es2022"
   },
   "include": ["src"]
 }
